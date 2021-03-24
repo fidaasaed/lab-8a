@@ -1,0 +1,66 @@
+body{
+    width:90%
+}
+
+li {
+    display: inline;
+    /* position: absolute;
+   */
+   
+}ul{
+    margin:5px;
+    border:solid,1px;
+    position: relative;
+}
+
+
+li:nth-child(n+2){
+padding: 40px;
+margin: 3px;
+}
+
+#uno{ 
+    margin:11px;
+    position :relative;
+}
+#dos {
+   margin:10px;
+    position :relative;}
+
+#dos img{
+    margin:20px;
+}
+
+#tres img{
+    margin:20px;
+    float:left; 
+}
+h5{
+    font-weight: bold;
+}
+#tres{
+position:relative;
+}
+
+#tres div{
+    float:left;
+    position: left;
+    width:500px;
+  
+}
+
+
+button{
+   padding:19px 150px;
+   display: block ;
+   border:solid, #DDD;
+   border-radius: 6px;
+
+}
+
+footer  {
+   clear:both;
+background-color: #DDD;
+width:1000px;
+height:100px;
+}
